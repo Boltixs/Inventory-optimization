@@ -18,7 +18,6 @@ println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty '
 minecraft {
     mappings channel: mapping_channel, version: mapping_version
 
-    // Клиентский мод — используем только клиентский run.
     runs {
         client {
             workingDirectory project.file('run')
